@@ -1,0 +1,96 @@
+const tr = {
+  lang: "tr",
+  /*Settings*/
+  settings: "Tweet Ayarları",
+  name: "Ad ve Soyad",
+  username: "Kullanıcı Adı",
+  tweet: "Tweet",
+  avatar: "Profil Resmi",
+  retweet: "Retweet",
+  quotetweet: "Alıntı Tweet",
+  like: "Beğeni",
+  approved: "Doğrulanmış Hesap",
+  dateandtime: "Saat ve Tarih",
+  device: "Cihaz",
+  create: "Oluştur",
+  yes: "Evet",
+  no: "Hayır",
+  /*Tweet API*/
+  gettweet: "Tweet Çek",
+  gettweetinput: "Twitter kulanıcı adını yazın",
+  /*Tweet Card*/
+  card_name: "Ad ve Soyad",
+  card_username: "kullanıcıadı",
+  card_tweet: "Yeni gönderinizi yazınız.",
+  card_retweet: "Retweet",
+  card_quotetweet: "Alıntı Tweet",
+  card_like: "Beğeni",
+  card_AM: "ÖÖ",
+  card_PM: "ÖS",
+  card_months: [
+    "Oca",
+    "Şub",
+    "Mar",
+    "Nis",
+    "May",
+    "Haz",
+    "Tem",
+    "Ağu",
+    "Eyl",
+    "Eki",
+    "Kas",
+    "Ara",
+  ],
+  warning: "Kullanıcı Bulunamadı!"
+};
+
+const en = {
+  lang: "en",
+  /*Settings*/
+  settings: "Tweet Settings",
+  name: "Name and Surname",
+  username: "Username",
+  tweet: "Tweet",
+  avatar: "Profile Picture",
+  retweet: "Retweet",
+  quotetweet: "Quote Tweet",
+  like: "Beğeni",
+  approved: "Verified Account",
+  dateandtime: "Time and Date",
+  device: "Device",
+  create: "Create",
+  yes: "Yes",
+  no: "No",
+  /*Tweet API*/
+  gettweet: "Get Tweet",
+  gettweetinput: "Type your Twitter username",
+  /*Tweet Card*/
+  card_name: "Name and Surname",
+  card_username: "username",
+  card_tweet: "Write your new post.",
+  card_retweet: "Retweets",
+  card_quotetweet: "Quote Tweets",
+  card_like: "Likes",
+  card_AM: "AM",
+  card_PM: "PM",
+  card_months: [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ],
+  warning: "User not found!"
+};
+
+export const languages = {
+  tr,
+  en,
+};
